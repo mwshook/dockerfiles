@@ -1,0 +1,12 @@
+services:
+  man-ssh:
+    image: docker pull hairyhenderson/man
+    container_name: man-ssh
+    environment:
+      - ENV PAGER="/usr/bin/less"
+    ports:
+      - 2265:22
+    restart: on-failure:5
+    volumes:
+      - /volume1/docker/man-ssh:/var/lib/postgresql/data:rw
+    restart: on-failure:5
