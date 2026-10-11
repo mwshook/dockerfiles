@@ -1,3 +1,7 @@
+I forked this from hairyhenderson to see if I can make a server that provides interactive `man` via `ssh`
+
+--------------------------------------------------------------------------------------
+
 [![Build Status][ghactions-image]][ghactions-url]
 
 # dockerfiles
